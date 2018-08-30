@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0F7C4C2DC33114775C23640 /* libPods-JKSwiftBaseFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E62112A4F553172A0161FAF1 /* libPods-JKSwiftBaseFramework.a */; };
+		FF94B8D62137991000CB1FF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B8D52137991000CB1FF7 /* AppDelegate.swift */; };
+		FF94B8DB2137991000CB1FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF94B8D92137991000CB1FF7 /* Main.storyboard */; };
+		FF94B8DD2137991300CB1FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF94B8DC2137991300CB1FF7 /* Assets.xcassets */; };
+		FF94B8E02137991300CB1FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF94B8DE2137991300CB1FF7 /* LaunchScreen.storyboard */; };
+		FF94B8EB2137991300CB1FF7 /* JKSwiftBaseFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B8EA2137991300CB1FF7 /* JKSwiftBaseFrameworkTests.swift */; };
+		FF94B8F62137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B8F52137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.swift */; };
+		FF94B93A21379AC300CB1FF7 /* JKHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B90721379AC300CB1FF7 /* JKHomeViewController.swift */; };
+		FF94B93B21379AC300CB1FF7 /* JKMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B90A21379AC300CB1FF7 /* JKMessageViewController.swift */; };
+		FF94B93C21379AC300CB1FF7 /* JKLifeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B90D21379AC300CB1FF7 /* JKLifeViewController.swift */; };
+		FF94B93D21379AC300CB1FF7 /* JKPublishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91021379AC300CB1FF7 /* JKPublishViewController.swift */; };
+		FF94B93E21379AC300CB1FF7 /* JKMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91321379AC300CB1FF7 /* JKMineViewController.swift */; };
+		FF94B93F21379AC300CB1FF7 /* JKLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91621379AC300CB1FF7 /* JKLoginViewController.swift */; };
+		FF94B94021379AC300CB1FF7 /* JKBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91821379AC300CB1FF7 /* JKBadgeButton.swift */; };
+		FF94B94121379AC300CB1FF7 /* JKTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91921379AC300CB1FF7 /* JKTabBarView.swift */; };
+		FF94B94221379AC300CB1FF7 /* JKNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91A21379AC300CB1FF7 /* JKNavigationController.swift */; };
+		FF94B94321379AC300CB1FF7 /* JKTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91B21379AC300CB1FF7 /* JKTabBar.swift */; };
+		FF94B94421379AC300CB1FF7 /* JKTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91C21379AC300CB1FF7 /* JKTabBarButton.swift */; };
+		FF94B94521379AC300CB1FF7 /* JKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91D21379AC300CB1FF7 /* JKTabBarController.swift */; };
+		FF94B94621379AC300CB1FF7 /* JKBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B91E21379AC300CB1FF7 /* JKBaseViewController.swift */; };
+		FF94B94721379AC300CB1FF7 /* JKAppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92221379AC300CB1FF7 /* JKAppManager.swift */; };
+		FF94B94821379AC300CB1FF7 /* AppMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92521379AC300CB1FF7 /* AppMacro.swift */; };
+		FF94B94921379AC300CB1FF7 /* Ext+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92721379AC300CB1FF7 /* Ext+UITextField.swift */; };
+		FF94B94A21379AC300CB1FF7 /* Ext+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92821379AC300CB1FF7 /* Ext+UIDevice.swift */; };
+		FF94B94B21379AC300CB1FF7 /* Ext+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92921379AC300CB1FF7 /* Ext+UIColor.swift */; };
+		FF94B94C21379AC300CB1FF7 /* Ext+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92A21379AC300CB1FF7 /* Ext+UIButton.swift */; };
+		FF94B94D21379AC300CB1FF7 /* Ext+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92B21379AC300CB1FF7 /* Ext+UIView.swift */; };
+		FF94B94E21379AC300CB1FF7 /* Ext+CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92C21379AC300CB1FF7 /* Ext+CGFloat.swift */; };
+		FF94B94F21379AC300CB1FF7 /* Ext+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B92D21379AC300CB1FF7 /* Ext+UIImage.swift */; };
+		FF94B95021379AC300CB1FF7 /* JKCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93021379AC300CB1FF7 /* JKCarouselView.swift */; };
+		FF94B95121379AC300CB1FF7 /* JKPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93121379AC300CB1FF7 /* JKPageControl.swift */; };
+		FF94B95221379AC300CB1FF7 /* JKCarouselCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93221379AC300CB1FF7 /* JKCarouselCollectionCell.swift */; };
+		FF94B95321379AC300CB1FF7 /* JKAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93521379AC300CB1FF7 /* JKAPIManager.swift */; };
+		FF94B95421379AC300CB1FF7 /* RequestURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93621379AC300CB1FF7 /* RequestURL.swift */; };
+		FF94B95521379AC300CB1FF7 /* JKHttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93721379AC300CB1FF7 /* JKHttpManager.swift */; };
+		FF94B95621379AC300CB1FF7 /* JKProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF94B93921379AC300CB1FF7 /* JKProgressHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF94B8E72137991300CB1FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF94B8CA2137991000CB1FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF94B8D12137991000CB1FF7;
+			remoteInfo = JKSwiftBaseFramework;
+		};
+		FF94B8F22137991300CB1FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF94B8CA2137991000CB1FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF94B8D12137991000CB1FF7;
+			remoteInfo = JKSwiftBaseFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7D0D0D1C3C6C07E37671DFB6 /* Pods-JKSwiftBaseFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftBaseFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-JKSwiftBaseFramework/Pods-JKSwiftBaseFramework.release.xcconfig"; sourceTree = "<group>"; };
+		9C15F42F6B3F8CFF477CDEE2 /* Pods-JKSwiftBaseFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JKSwiftBaseFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JKSwiftBaseFramework/Pods-JKSwiftBaseFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		E62112A4F553172A0161FAF1 /* libPods-JKSwiftBaseFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JKSwiftBaseFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94B8D22137991000CB1FF7 /* JKSwiftBaseFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKSwiftBaseFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94B8D52137991000CB1FF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF94B8DA2137991000CB1FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF94B8DC2137991300CB1FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF94B8DF2137991300CB1FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF94B8E12137991300CB1FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94B8E62137991300CB1FF7 /* JKSwiftBaseFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSwiftBaseFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94B8EA2137991300CB1FF7 /* JKSwiftBaseFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKSwiftBaseFrameworkTests.swift; sourceTree = "<group>"; };
+		FF94B8EC2137991300CB1FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94B8F12137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKSwiftBaseFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF94B8F52137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKSwiftBaseFrameworkUITests.swift; sourceTree = "<group>"; };
+		FF94B8F72137991300CB1FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF94B90721379AC300CB1FF7 /* JKHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKHomeViewController.swift; sourceTree = "<group>"; };
+		FF94B90A21379AC300CB1FF7 /* JKMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKMessageViewController.swift; sourceTree = "<group>"; };
+		FF94B90D21379AC300CB1FF7 /* JKLifeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKLifeViewController.swift; sourceTree = "<group>"; };
+		FF94B91021379AC300CB1FF7 /* JKPublishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKPublishViewController.swift; sourceTree = "<group>"; };
+		FF94B91321379AC300CB1FF7 /* JKMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKMineViewController.swift; sourceTree = "<group>"; };
+		FF94B91621379AC300CB1FF7 /* JKLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKLoginViewController.swift; sourceTree = "<group>"; };
+		FF94B91821379AC300CB1FF7 /* JKBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKBadgeButton.swift; sourceTree = "<group>"; };
+		FF94B91921379AC300CB1FF7 /* JKTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTabBarView.swift; sourceTree = "<group>"; };
+		FF94B91A21379AC300CB1FF7 /* JKNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKNavigationController.swift; sourceTree = "<group>"; };
+		FF94B91B21379AC300CB1FF7 /* JKTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTabBar.swift; sourceTree = "<group>"; };
+		FF94B91C21379AC300CB1FF7 /* JKTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTabBarButton.swift; sourceTree = "<group>"; };
+		FF94B91D21379AC300CB1FF7 /* JKTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKTabBarController.swift; sourceTree = "<group>"; };
+		FF94B91E21379AC300CB1FF7 /* JKBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKBaseViewController.swift; sourceTree = "<group>"; };
+		FF94B92021379AC300CB1FF7 /* JKBaseFramework-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JKBaseFramework-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF94B92221379AC300CB1FF7 /* JKAppManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKAppManager.swift; sourceTree = "<group>"; };
+		FF94B92521379AC300CB1FF7 /* AppMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppMacro.swift; sourceTree = "<group>"; };
+		FF94B92721379AC300CB1FF7 /* Ext+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UITextField.swift"; sourceTree = "<group>"; };
+		FF94B92821379AC300CB1FF7 /* Ext+UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UIDevice.swift"; sourceTree = "<group>"; };
+		FF94B92921379AC300CB1FF7 /* Ext+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UIColor.swift"; sourceTree = "<group>"; };
+		FF94B92A21379AC300CB1FF7 /* Ext+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UIButton.swift"; sourceTree = "<group>"; };
+		FF94B92B21379AC300CB1FF7 /* Ext+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UIView.swift"; sourceTree = "<group>"; };
+		FF94B92C21379AC300CB1FF7 /* Ext+CGFloat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+CGFloat.swift"; sourceTree = "<group>"; };
+		FF94B92D21379AC300CB1FF7 /* Ext+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+UIImage.swift"; sourceTree = "<group>"; };
+		FF94B93021379AC300CB1FF7 /* JKCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCarouselView.swift; sourceTree = "<group>"; };
+		FF94B93121379AC300CB1FF7 /* JKPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKPageControl.swift; sourceTree = "<group>"; };
+		FF94B93221379AC300CB1FF7 /* JKCarouselCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKCarouselCollectionCell.swift; sourceTree = "<group>"; };
+		FF94B93521379AC300CB1FF7 /* JKAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKAPIManager.swift; sourceTree = "<group>"; };
+		FF94B93621379AC300CB1FF7 /* RequestURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestURL.swift; sourceTree = "<group>"; };
+		FF94B93721379AC300CB1FF7 /* JKHttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKHttpManager.swift; sourceTree = "<group>"; };
+		FF94B93921379AC300CB1FF7 /* JKProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKProgressHUD.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF94B8CF2137991000CB1FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F7C4C2DC33114775C23640 /* libPods-JKSwiftBaseFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94B8E32137991300CB1FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94B8EE2137991300CB1FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0563CA345446717951108944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C15F42F6B3F8CFF477CDEE2 /* Pods-JKSwiftBaseFramework.debug.xcconfig */,
+				7D0D0D1C3C6C07E37671DFB6 /* Pods-JKSwiftBaseFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5BCC00ACB9B31969F7DDD8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E62112A4F553172A0161FAF1 /* libPods-JKSwiftBaseFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF94B8C92137991000CB1FF7 = {
+			isa = PBXGroup;
+			children = (
+				FF94B8D42137991000CB1FF7 /* JKSwiftBaseFramework */,
+				FF94B8E92137991300CB1FF7 /* JKSwiftBaseFrameworkTests */,
+				FF94B8F42137991300CB1FF7 /* JKSwiftBaseFrameworkUITests */,
+				FF94B8D32137991000CB1FF7 /* Products */,
+				0563CA345446717951108944 /* Pods */,
+				E5BCC00ACB9B31969F7DDD8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF94B8D32137991000CB1FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B8D22137991000CB1FF7 /* JKSwiftBaseFramework.app */,
+				FF94B8E62137991300CB1FF7 /* JKSwiftBaseFrameworkTests.xctest */,
+				FF94B8F12137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF94B8D42137991000CB1FF7 /* JKSwiftBaseFramework */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B8D52137991000CB1FF7 /* AppDelegate.swift */,
+				FF94B90321379AC300CB1FF7 /* Main */,
+				FF94B92121379AC300CB1FF7 /* Manager */,
+				FF94B92321379AC300CB1FF7 /* Others */,
+				FF94B91F21379AC300CB1FF7 /* BridgeSupport */,
+				FF94B8D92137991000CB1FF7 /* Main.storyboard */,
+				FF94B8DC2137991300CB1FF7 /* Assets.xcassets */,
+				FF94B8DE2137991300CB1FF7 /* LaunchScreen.storyboard */,
+				FF94B8E12137991300CB1FF7 /* Info.plist */,
+			);
+			path = JKSwiftBaseFramework;
+			sourceTree = "<group>";
+		};
+		FF94B8E92137991300CB1FF7 /* JKSwiftBaseFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B8EA2137991300CB1FF7 /* JKSwiftBaseFrameworkTests.swift */,
+				FF94B8EC2137991300CB1FF7 /* Info.plist */,
+			);
+			path = JKSwiftBaseFrameworkTests;
+			sourceTree = "<group>";
+		};
+		FF94B8F42137991300CB1FF7 /* JKSwiftBaseFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B8F52137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.swift */,
+				FF94B8F72137991300CB1FF7 /* Info.plist */,
+			);
+			path = JKSwiftBaseFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		FF94B90321379AC300CB1FF7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90421379AC300CB1FF7 /* Modules */,
+				FF94B91721379AC300CB1FF7 /* Base */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF94B90421379AC300CB1FF7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90521379AC300CB1FF7 /* Home */,
+				FF94B90821379AC300CB1FF7 /* Message */,
+				FF94B90B21379AC300CB1FF7 /* Life */,
+				FF94B90E21379AC300CB1FF7 /* Publish */,
+				FF94B91121379AC300CB1FF7 /* Mine */,
+				FF94B91421379AC300CB1FF7 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FF94B90521379AC300CB1FF7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90621379AC300CB1FF7 /* VC */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FF94B90621379AC300CB1FF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90721379AC300CB1FF7 /* JKHomeViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF94B90821379AC300CB1FF7 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90921379AC300CB1FF7 /* VC */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		FF94B90921379AC300CB1FF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90A21379AC300CB1FF7 /* JKMessageViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF94B90B21379AC300CB1FF7 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90C21379AC300CB1FF7 /* VC */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		FF94B90C21379AC300CB1FF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90D21379AC300CB1FF7 /* JKLifeViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF94B90E21379AC300CB1FF7 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B90F21379AC300CB1FF7 /* VC */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		FF94B90F21379AC300CB1FF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B91021379AC300CB1FF7 /* JKPublishViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF94B91121379AC300CB1FF7 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B91221379AC300CB1FF7 /* VC */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		FF94B91221379AC300CB1FF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B91321379AC300CB1FF7 /* JKMineViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF94B91421379AC300CB1FF7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B91521379AC300CB1FF7 /* VC */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FF94B91521379AC300CB1FF7 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B91621379AC300CB1FF7 /* JKLoginViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FF94B91721379AC300CB1FF7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B91821379AC300CB1FF7 /* JKBadgeButton.swift */,
+				FF94B91921379AC300CB1FF7 /* JKTabBarView.swift */,
+				FF94B91A21379AC300CB1FF7 /* JKNavigationController.swift */,
+				FF94B91B21379AC300CB1FF7 /* JKTabBar.swift */,
+				FF94B91C21379AC300CB1FF7 /* JKTabBarButton.swift */,
+				FF94B91D21379AC300CB1FF7 /* JKTabBarController.swift */,
+				FF94B91E21379AC300CB1FF7 /* JKBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		FF94B91F21379AC300CB1FF7 /* BridgeSupport */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B92021379AC300CB1FF7 /* JKBaseFramework-Bridging-Header.h */,
+			);
+			path = BridgeSupport;
+			sourceTree = "<group>";
+		};
+		FF94B92121379AC300CB1FF7 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B92221379AC300CB1FF7 /* JKAppManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		FF94B92321379AC300CB1FF7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B92421379AC300CB1FF7 /* Define */,
+				FF94B92621379AC300CB1FF7 /* Category */,
+				FF94B92E21379AC300CB1FF7 /* Component */,
+				FF94B93321379AC300CB1FF7 /* Helper */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		FF94B92421379AC300CB1FF7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B92521379AC300CB1FF7 /* AppMacro.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		FF94B92621379AC300CB1FF7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B92721379AC300CB1FF7 /* Ext+UITextField.swift */,
+				FF94B92821379AC300CB1FF7 /* Ext+UIDevice.swift */,
+				FF94B92921379AC300CB1FF7 /* Ext+UIColor.swift */,
+				FF94B92A21379AC300CB1FF7 /* Ext+UIButton.swift */,
+				FF94B92B21379AC300CB1FF7 /* Ext+UIView.swift */,
+				FF94B92C21379AC300CB1FF7 /* Ext+CGFloat.swift */,
+				FF94B92D21379AC300CB1FF7 /* Ext+UIImage.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FF94B92E21379AC300CB1FF7 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B92F21379AC300CB1FF7 /* CarouselView */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		FF94B92F21379AC300CB1FF7 /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B93021379AC300CB1FF7 /* JKCarouselView.swift */,
+				FF94B93121379AC300CB1FF7 /* JKPageControl.swift */,
+				FF94B93221379AC300CB1FF7 /* JKCarouselCollectionCell.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		FF94B93321379AC300CB1FF7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B93421379AC300CB1FF7 /* Network */,
+				FF94B93821379AC300CB1FF7 /* Utils */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FF94B93421379AC300CB1FF7 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B93521379AC300CB1FF7 /* JKAPIManager.swift */,
+				FF94B93621379AC300CB1FF7 /* RequestURL.swift */,
+				FF94B93721379AC300CB1FF7 /* JKHttpManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FF94B93821379AC300CB1FF7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FF94B93921379AC300CB1FF7 /* JKProgressHUD.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF94B8D12137991000CB1FF7 /* JKSwiftBaseFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94B8FA2137991300CB1FF7 /* Build configuration list for PBXNativeTarget "JKSwiftBaseFramework" */;
+			buildPhases = (
+				C797D6AEF837E840A7B1F9A9 /* [CP] Check Pods Manifest.lock */,
+				FF94B8CE2137991000CB1FF7 /* Sources */,
+				FF94B8CF2137991000CB1FF7 /* Frameworks */,
+				FF94B8D02137991000CB1FF7 /* Resources */,
+				36290C3B4E9ACBA8AE0FD802 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKSwiftBaseFramework;
+			productName = JKSwiftBaseFramework;
+			productReference = FF94B8D22137991000CB1FF7 /* JKSwiftBaseFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF94B8E52137991300CB1FF7 /* JKSwiftBaseFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94B8FD2137991300CB1FF7 /* Build configuration list for PBXNativeTarget "JKSwiftBaseFrameworkTests" */;
+			buildPhases = (
+				FF94B8E22137991300CB1FF7 /* Sources */,
+				FF94B8E32137991300CB1FF7 /* Frameworks */,
+				FF94B8E42137991300CB1FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF94B8E82137991300CB1FF7 /* PBXTargetDependency */,
+			);
+			name = JKSwiftBaseFrameworkTests;
+			productName = JKSwiftBaseFrameworkTests;
+			productReference = FF94B8E62137991300CB1FF7 /* JKSwiftBaseFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF94B8F02137991300CB1FF7 /* JKSwiftBaseFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF94B9002137991300CB1FF7 /* Build configuration list for PBXNativeTarget "JKSwiftBaseFrameworkUITests" */;
+			buildPhases = (
+				FF94B8ED2137991300CB1FF7 /* Sources */,
+				FF94B8EE2137991300CB1FF7 /* Frameworks */,
+				FF94B8EF2137991300CB1FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF94B8F32137991300CB1FF7 /* PBXTargetDependency */,
+			);
+			name = JKSwiftBaseFrameworkUITests;
+			productName = JKSwiftBaseFrameworkUITests;
+			productReference = FF94B8F12137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF94B8CA2137991000CB1FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kunge;
+				TargetAttributes = {
+					FF94B8D12137991000CB1FF7 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					FF94B8E52137991300CB1FF7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FF94B8D12137991000CB1FF7;
+					};
+					FF94B8F02137991300CB1FF7 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = FF94B8D12137991000CB1FF7;
+					};
+				};
+			};
+			buildConfigurationList = FF94B8CD2137991000CB1FF7 /* Build configuration list for PBXProject "JKSwiftBaseFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF94B8C92137991000CB1FF7;
+			productRefGroup = FF94B8D32137991000CB1FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF94B8D12137991000CB1FF7 /* JKSwiftBaseFramework */,
+				FF94B8E52137991300CB1FF7 /* JKSwiftBaseFrameworkTests */,
+				FF94B8F02137991300CB1FF7 /* JKSwiftBaseFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF94B8D02137991000CB1FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94B8E02137991300CB1FF7 /* LaunchScreen.storyboard in Resources */,
+				FF94B8DD2137991300CB1FF7 /* Assets.xcassets in Resources */,
+				FF94B8DB2137991000CB1FF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94B8E42137991300CB1FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94B8EF2137991300CB1FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36290C3B4E9ACBA8AE0FD802 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JKSwiftBaseFramework/Pods-JKSwiftBaseFramework-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JKSwiftBaseFramework/Pods-JKSwiftBaseFramework-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C797D6AEF837E840A7B1F9A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JKSwiftBaseFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF94B8CE2137991000CB1FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94B94421379AC300CB1FF7 /* JKTabBarButton.swift in Sources */,
+				FF94B94521379AC300CB1FF7 /* JKTabBarController.swift in Sources */,
+				FF94B95321379AC300CB1FF7 /* JKAPIManager.swift in Sources */,
+				FF94B94621379AC300CB1FF7 /* JKBaseViewController.swift in Sources */,
+				FF94B93A21379AC300CB1FF7 /* JKHomeViewController.swift in Sources */,
+				FF94B93C21379AC300CB1FF7 /* JKLifeViewController.swift in Sources */,
+				FF94B94021379AC300CB1FF7 /* JKBadgeButton.swift in Sources */,
+				FF94B94E21379AC300CB1FF7 /* Ext+CGFloat.swift in Sources */,
+				FF94B95521379AC300CB1FF7 /* JKHttpManager.swift in Sources */,
+				FF94B94121379AC300CB1FF7 /* JKTabBarView.swift in Sources */,
+				FF94B8D62137991000CB1FF7 /* AppDelegate.swift in Sources */,
+				FF94B95621379AC300CB1FF7 /* JKProgressHUD.swift in Sources */,
+				FF94B93B21379AC300CB1FF7 /* JKMessageViewController.swift in Sources */,
+				FF94B95421379AC300CB1FF7 /* RequestURL.swift in Sources */,
+				FF94B94B21379AC300CB1FF7 /* Ext+UIColor.swift in Sources */,
+				FF94B94221379AC300CB1FF7 /* JKNavigationController.swift in Sources */,
+				FF94B95221379AC300CB1FF7 /* JKCarouselCollectionCell.swift in Sources */,
+				FF94B94F21379AC300CB1FF7 /* Ext+UIImage.swift in Sources */,
+				FF94B94C21379AC300CB1FF7 /* Ext+UIButton.swift in Sources */,
+				FF94B95121379AC300CB1FF7 /* JKPageControl.swift in Sources */,
+				FF94B93F21379AC300CB1FF7 /* JKLoginViewController.swift in Sources */,
+				FF94B94A21379AC300CB1FF7 /* Ext+UIDevice.swift in Sources */,
+				FF94B94921379AC300CB1FF7 /* Ext+UITextField.swift in Sources */,
+				FF94B94D21379AC300CB1FF7 /* Ext+UIView.swift in Sources */,
+				FF94B93E21379AC300CB1FF7 /* JKMineViewController.swift in Sources */,
+				FF94B94821379AC300CB1FF7 /* AppMacro.swift in Sources */,
+				FF94B94321379AC300CB1FF7 /* JKTabBar.swift in Sources */,
+				FF94B95021379AC300CB1FF7 /* JKCarouselView.swift in Sources */,
+				FF94B94721379AC300CB1FF7 /* JKAppManager.swift in Sources */,
+				FF94B93D21379AC300CB1FF7 /* JKPublishViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94B8E22137991300CB1FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94B8EB2137991300CB1FF7 /* JKSwiftBaseFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF94B8ED2137991300CB1FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF94B8F62137991300CB1FF7 /* JKSwiftBaseFrameworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF94B8E82137991300CB1FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF94B8D12137991000CB1FF7 /* JKSwiftBaseFramework */;
+			targetProxy = FF94B8E72137991300CB1FF7 /* PBXContainerItemProxy */;
+		};
+		FF94B8F32137991300CB1FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF94B8D12137991000CB1FF7 /* JKSwiftBaseFramework */;
+			targetProxy = FF94B8F22137991300CB1FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF94B8D92137991000CB1FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94B8DA2137991000CB1FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF94B8DE2137991300CB1FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF94B8DF2137991300CB1FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF94B8F82137991300CB1FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF94B8F92137991300CB1FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF94B8FB2137991300CB1FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C15F42F6B3F8CFF477CDEE2 /* Pods-JKSwiftBaseFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKSwiftBaseFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKSwiftBaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kunge/Desktop/JKSwiftBaseFramework/JKSwiftBaseFramework/BridgeSupport/JKBaseFramework-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF94B8FC2137991300CB1FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0D0D1C3C6C07E37671DFB6 /* Pods-JKSwiftBaseFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKSwiftBaseFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKSwiftBaseFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kunge/Desktop/JKSwiftBaseFramework/JKSwiftBaseFramework/BridgeSupport/JKBaseFramework-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF94B8FE2137991300CB1FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKSwiftBaseFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKSwiftBaseFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKSwiftBaseFramework.app/JKSwiftBaseFramework";
+			};
+			name = Debug;
+		};
+		FF94B8FF2137991300CB1FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKSwiftBaseFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKSwiftBaseFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKSwiftBaseFramework.app/JKSwiftBaseFramework";
+			};
+			name = Release;
+		};
+		FF94B9012137991300CB1FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKSwiftBaseFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKSwiftBaseFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKSwiftBaseFramework;
+			};
+			name = Debug;
+		};
+		FF94B9022137991300CB1FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UVBA5D9S4X;
+				INFOPLIST_FILE = JKSwiftBaseFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zijing.com.JKSwiftBaseFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JKSwiftBaseFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF94B8CD2137991000CB1FF7 /* Build configuration list for PBXProject "JKSwiftBaseFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94B8F82137991300CB1FF7 /* Debug */,
+				FF94B8F92137991300CB1FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94B8FA2137991300CB1FF7 /* Build configuration list for PBXNativeTarget "JKSwiftBaseFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94B8FB2137991300CB1FF7 /* Debug */,
+				FF94B8FC2137991300CB1FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94B8FD2137991300CB1FF7 /* Build configuration list for PBXNativeTarget "JKSwiftBaseFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94B8FE2137991300CB1FF7 /* Debug */,
+				FF94B8FF2137991300CB1FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF94B9002137991300CB1FF7 /* Build configuration list for PBXNativeTarget "JKSwiftBaseFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF94B9012137991300CB1FF7 /* Debug */,
+				FF94B9022137991300CB1FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF94B8CA2137991000CB1FF7 /* Project object */;
+}
